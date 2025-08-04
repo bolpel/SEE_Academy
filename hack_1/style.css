@@ -1,0 +1,118 @@
+/*Universal*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    background-color: #eee;
+    font-size: 24px;
+    line-height: 0.8em;
+    text-rendering: optimizedLegibility;
+  }
+  
+  
+/*reusable*/
+.container {
+    width: 0 auto;
+    padding: 0.5em;
+}
+
+/*heading*/
+
+header {
+    height: 100vh;
+    /*background-color: skyblue;*/
+    padding: 0.3em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 150%;
+    font-weight: normal;
+    color: #000;
+    text-shadow: 1px 1px #fff;
+    /*padding: ;*/
+}
+
+h2,
+h3 {
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.75em;
+}
+
+/*navigation, link & list*/
+nav {
+    display: flex;
+    font-size: 65%;
+    padding: 0.5em;
+    scroll-behavior: sticky;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    scroll-behavior: sticky;
+}
+
+li {
+
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    padding: 0.5em;
+}
+/*paragrah*/
+
+#intro-wrapper{
+    /*display: flex;*/
+    /*background-color: yellow;*/
+    padding: 0.3em;
+    /*align-content: center;*/
+}
+
+#intro {
+    margin: 2em 0;
+    /*display: flex;*/
+    justify-self: center;
+}
+
+#intro >p {
+    font-size: 50%;
+}
+
+p {
+    font-size: 45%;
+    text-align: justify;
+}
+/*section*/
+#about {
+    background-color: brown;
+}
+#skill {
+    background-color: turqouise;
+}
+
+#contact {
+    background-color: brown;
+}
+
+section {
+    padding: 0.7em 0;
+}
+
+
+/*footer*/
+footer p {
+    text-align: center;
+}
